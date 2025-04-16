@@ -1,0 +1,1 @@
+{"ventola":1,"idranti":0,"luce":1,"temperaturaIdeale":20,"umiditaIdeale":10,"terraIdeale":20,"millisecondi":18000,"idDato":"591","data":"2024-05-12 19:26:05","temp":"41","umidita":"52","terra":"49","acqua":"32"}

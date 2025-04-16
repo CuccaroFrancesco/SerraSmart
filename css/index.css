@@ -1,0 +1,20 @@
+:root
+{
+    --sfondo-modello-3d: #f7fff9;
+    --colore-scritte-modello: black;
+    --sfondo-container-tecnologie: #085232;
+    --sfondo-card-tecnologie: white;
+    --colore-scritte-card: #636764f0;
+    --colore-scritte-card-li: #565f55;
+    
+}
+.dark
+{
+    --sfondo-modello-3d: #1d1d1d;
+    --colore-scritte-modello: white;
+    --sfondo-container-tecnologie: #0b0b0b;
+    --sfondo-card-tecnologie: #093b26;
+    --colore-scritte-card: #979998;
+    --colore-scritte-card-li: #c3c3c3;
+
+}

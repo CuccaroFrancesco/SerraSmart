@@ -1,0 +1,158 @@
+:root
+{
+    --sfondo-sidebar-doc: #26774A;
+    --sfondo-documentazione: #E9FDEE;
+    --colore-scritte-doc: black;
+    --colore-scritte-doc2: black;
+}
+.dark
+{
+    
+    --sfondo-sidebar-doc: #152E20;
+    --sfondo-documentazione: #010A05;
+    --colore-scritte-doc: white;
+    --colore-scritte-doc2: #d3d3d3;
+}
+.documentazione
+{
+    padding-top: 81px;
+    display: flex;
+    color: var(--colore-scritte-doc);
+}
+
+/* Sidebar */
+
+.sidebar
+{
+    width: 412px;
+    height: 100%;
+    position: fixed;
+    padding: 30px 50px 100px 50px;
+    background-color: var(--sfondo-sidebar-doc);
+}
+.lista-elementi
+{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.lista-elementi ul
+{
+    list-style: none;
+}
+.lista-elementi ul li
+{
+    width: 100%;
+    padding: 5px;
+}
+.section-link
+{
+    padding: 5px 0 5px 20px;
+    color: white;
+    text-decoration: none;
+    font-family: 'Montserrat';
+    font-weight: 300;
+}
+.section-title
+{
+    padding: 20px 0 5px 0;
+    font-family: 'Montserrat';
+    font-weight: 800;
+}
+.section-title a
+{
+    text-decoration: none;
+    color: white;
+}
+.lista-elementi ul li a:hover
+{
+    text-decoration: underline;
+}
+.lista-elementi ul li a.active
+{
+    color: #75ff75;
+}
+.container-doc
+{
+    width: calc(100% - 412px);
+    transform: translateX(412px);
+    background-color: var(--sfondo-documentazione);
+}
+
+/* Documentazione */
+
+article
+{
+    padding: 20px 50px 20px 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.titolo-doc
+{
+    margin-top: 50px;
+}
+.titolo-doc span
+{
+    color: var(--colore-scritte-doc2);
+    font-family: 'Nunito';
+    text-transform: uppercase;
+    font-weight: 600;
+}
+.titolo-doc p
+{
+    color: var(--colore-primario);
+    text-transform: uppercase;
+    font-family: 'Montserrat';
+    font-weight: 600;
+    font-size: 40px;
+}
+.elemento-doc h1
+{
+    font-family: 'Montserrat';
+    font-weight: 400;
+    font-size: 28px;
+    padding: 10px 0 10px 0;
+    border-bottom: 1px solid #8FB190;
+}
+.elemento-doc span:nth-of-type(1)
+{
+    font-weight: 900;
+    color: var(--colore-primario);
+}
+.elemento-doc span:nth-of-type(2)
+{
+    font-weight: 200;
+}
+.elemento-doc p
+{
+    font-family: 'Nunito';
+    color: var(--colore-scritte-doc2);
+    font-size: 20px;
+    padding: 30px 40px 30px 0;
+}
+.elemento-doc li
+{
+    font-family: 'Nunito';
+    font-size: 20px;
+    padding: 15px 40px 15px 0;
+}
+#strumenti-di-sviluppo
+{
+    margin-bottom: 50px;
+}
+
+
+/* Footer e chatbot */
+
+
+footer
+{
+    z-index: 200;
+    position: relative;
+}
+.chatbot
+{
+    z-index: 800;
+    position: relative;
+}
