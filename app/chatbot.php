@@ -66,7 +66,7 @@
                     method: 'POST',
                     headers: {
                         'Content-Type': 'application/json',
-                        'Authorization': 'Bearer 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',
+                        'Authorization': 'Bearer CHIAVE-QUA',
                     },
                     body: JSON.stringify(data),
                 })
